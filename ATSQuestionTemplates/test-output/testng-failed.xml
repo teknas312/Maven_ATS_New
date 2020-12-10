@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [QuickHire Suite]">
+  <test thread-count="5" name="QuickHire Test2(failed)">
+    <classes>
+      <class name="org.automation.testcases.TC_002_Validate_Question_Template_Creation">
+        <methods>
+          <include name="initiateDriverInstance"/>
+          <include name="templateCreation"/>
+          <include name="endReport"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.automation.testcases.TC_002_Validate_Question_Template_Creation -->
+      <class name="org.automation.testcases.TC_009_Iframe_New_Window">
+        <methods>
+          <include name="initiateDriverInstance"/>
+          <include name="endReport"/>
+          <include name="WindowHandleDemo"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.automation.testcases.TC_009_Iframe_New_Window -->
+    </classes>
+  </test> <!-- QuickHire Test2(failed) -->
+</suite> <!-- Failed suite [QuickHire Suite] -->

@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-QuickHire_Suite">
+              <span class="suite-name border-passed">QuickHire Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-QuickHire_Suite">
+                    <span>C:\Users\sdalvi\ATS_Maven_Project\ATSQuestionTemplates\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-QuickHire_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-QuickHire_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-QuickHire_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-QuickHire_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-QuickHire_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-QuickHire_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-QuickHire_Suite" class="hide-methods passed suite-QuickHire_Suite"> (hide)</a> <!-- hide-methods passed suite-QuickHire_Suite -->
+                      <a href="#" panel-name="suite-QuickHire_Suite" class="show-methods passed suite-QuickHire_Suite"> (show)</a> <!-- show-methods passed suite-QuickHire_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-QuickHire_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuickHire_Suite" title="org.automation.testcases.TC_005_Validate_Hide_Inactive_functionality" hash-for-method="HideInactiveCheckbox">HideInactiveCheckbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuickHire_Suite" title="org.automation.testcases.TC_003_Validate_Multiselect_button_functionality" hash-for-method="SelectAllButton">SelectAllButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuickHire_Suite" title="org.automation.testcases.TC_008_Iframe_New_Window" hash-for-method="WindowHandleDemo">WindowHandleDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuickHire_Suite" title="org.automation.testcases.TC_006_Validate_Error_Messages_Question_Template" hash-for-method="errorMessage">errorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuickHire_Suite" title="org.automation.testcases.TC_001_Validate_Question_Template_Creation" hash-for-method="templateCreation">templateCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuickHire_Suite" title="org.automation.testcases.TC_004_Validate_Columns_in_Listing_Screen" hash-for-method="validateColumns">validateColumns</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuickHire_Suite" title="org.automation.testcases.TC_007_Validate_Fields_Application_Question_Tab" hash-for-method="validateFields">validateFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuickHire_Suite" title="org.automation.testcases.TC_002_Validate_Template_Listing_Screen" hash-for-method="validateFieldsDisplayed">validateFieldsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuickHire_Suite" title="org.automation.testcases.TC_002_Validate_Template_Listing_Screen" hash-for-method="verifyValidationOnNoRecords">verifyValidationOnNoRecords</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-QuickHire_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-QuickHire_Suite" class="panel QuickHire_Suite">
+          <div class="suite-QuickHire_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.automation.testcases.TC_005_Validate_Hide_Inactive_functionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HideInactiveCheckbox">
+                  </a> <!-- HideInactiveCheckbox -->
+                  <span class="method-name">HideInactiveCheckbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QuickHire_Suite-class-passed -->
+          <div class="suite-QuickHire_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.automation.testcases.TC_003_Validate_Multiselect_button_functionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectAllButton">
+                  </a> <!-- SelectAllButton -->
+                  <span class="method-name">SelectAllButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QuickHire_Suite-class-passed -->
+          <div class="suite-QuickHire_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.automation.testcases.TC_008_Iframe_New_Window</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="WindowHandleDemo">
+                  </a> <!-- WindowHandleDemo -->
+                  <span class="method-name">WindowHandleDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QuickHire_Suite-class-passed -->
+          <div class="suite-QuickHire_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.automation.testcases.TC_001_Validate_Question_Template_Creation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="templateCreation">
+                  </a> <!-- templateCreation -->
+                  <span class="method-name">templateCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QuickHire_Suite-class-passed -->
+          <div class="suite-QuickHire_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.automation.testcases.TC_006_Validate_Error_Messages_Question_Template</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorMessage">
+                  </a> <!-- errorMessage -->
+                  <span class="method-name">errorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QuickHire_Suite-class-passed -->
+          <div class="suite-QuickHire_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.automation.testcases.TC_007_Validate_Fields_Application_Question_Tab</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFields">
+                  </a> <!-- validateFields -->
+                  <span class="method-name">validateFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QuickHire_Suite-class-passed -->
+          <div class="suite-QuickHire_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.automation.testcases.TC_004_Validate_Columns_in_Listing_Screen</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateColumns">
+                  </a> <!-- validateColumns -->
+                  <span class="method-name">validateColumns</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QuickHire_Suite-class-passed -->
+          <div class="suite-QuickHire_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.automation.testcases.TC_002_Validate_Template_Listing_Screen</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFieldsDisplayed">
+                  </a> <!-- validateFieldsDisplayed -->
+                  <span class="method-name">validateFieldsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidationOnNoRecords">
+                  </a> <!-- verifyValidationOnNoRecords -->
+                  <span class="method-name">verifyValidationOnNoRecords</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QuickHire_Suite-class-passed -->
+        </div> <!-- panel QuickHire_Suite -->
+        <div panel-name="test-xml-QuickHire_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sdalvi\ATS_Maven_Project\ATSQuestionTemplates\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;QuickHire Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QuickHire Test2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.automation.testcases.TC_001_Validate_Question_Template_Creation&quot;/&gt;
+      &lt;class name=&quot;org.automation.testcases.TC_002_Validate_Template_Listing_Screen&quot;/&gt;
+      &lt;class name=&quot;org.automation.testcases.TC_003_Validate_Multiselect_button_functionality&quot;/&gt;
+      &lt;class name=&quot;org.automation.testcases.TC_004_Validate_Columns_in_Listing_Screen&quot;/&gt;
+      &lt;class name=&quot;org.automation.testcases.TC_005_Validate_Hide_Inactive_functionality&quot;/&gt;
+      &lt;class name=&quot;org.automation.testcases.TC_006_Validate_Error_Messages_Question_Template&quot;/&gt;
+      &lt;class name=&quot;org.automation.testcases.TC_007_Validate_Fields_Application_Question_Tab&quot;/&gt;
+      &lt;class name=&quot;org.automation.testcases.TC_008_Iframe_New_Window&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QuickHire Test2 --&gt;
+&lt;/suite&gt; &lt;!-- QuickHire Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-QuickHire_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for QuickHire Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">QuickHire Test2 (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-QuickHire_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for QuickHire Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-QuickHire_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for QuickHire Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_QuickHire_Suite');
+function tableData_QuickHire_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SelectAllButton')
+data.setCell(0, 2, 'org.automation.testcases.TC_003_Validate_Multiselect_button_functionality')
+data.setCell(0, 3, 43115);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'templateCreation')
+data.setCell(1, 2, 'org.automation.testcases.TC_001_Validate_Question_Template_Creation')
+data.setCell(1, 3, 40259);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'HideInactiveCheckbox')
+data.setCell(2, 2, 'org.automation.testcases.TC_005_Validate_Hide_Inactive_functionality')
+data.setCell(2, 3, 26751);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'errorMessage')
+data.setCell(3, 2, 'org.automation.testcases.TC_006_Validate_Error_Messages_Question_Template')
+data.setCell(3, 3, 16286);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'WindowHandleDemo')
+data.setCell(4, 2, 'org.automation.testcases.TC_008_Iframe_New_Window')
+data.setCell(4, 3, 13480);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateFields')
+data.setCell(5, 2, 'org.automation.testcases.TC_007_Validate_Fields_Application_Question_Tab')
+data.setCell(5, 3, 10098);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateColumns')
+data.setCell(6, 2, 'org.automation.testcases.TC_004_Validate_Columns_in_Listing_Screen')
+data.setCell(6, 3, 5293);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyValidationOnNoRecords')
+data.setCell(7, 2, 'org.automation.testcases.TC_002_Validate_Template_Listing_Screen')
+data.setCell(7, 3, 5156);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateFieldsDisplayed')
+data.setCell(8, 2, 'org.automation.testcases.TC_002_Validate_Template_Listing_Screen')
+data.setCell(8, 3, 4988);
+window.suiteTableData['QuickHire_Suite']= { tableData: data, tableDiv: 'times-div-QuickHire_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-QuickHire_Suite">
+              </div> <!-- times-div-QuickHire_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-QuickHire_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for QuickHire Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-QuickHire_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">14 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.automation.testcases.TC_003_Validate_Multiselect_button_functionality</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.automation.testcases.TC_005_Validate_Hide_Inactive_functionality</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.automation.testcases.TC_008_Iframe_New_Window</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.automation.testcases.TC_006_Validate_Error_Messages_Question_Template</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.automation.testcases.TC_007_Validate_Fields_Application_Question_Tab</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.automation.testcases.TC_004_Validate_Columns_in_Listing_Screen</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.automation.testcases.TC_002_Validate_Template_Listing_Screen</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-QuickHire_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.automation.testcases.TC_001_Validate_Question_Template_Creation</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">initiateDriverInstance</span>
+                <span class="method-start">123 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">templateCreation</span>
+                <span class="method-start">25685 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=templateCreation status=SUCCESS method=TC_001_Validate_Question_Template_Creation.t...)</span>
+                <span class="method-start">65946 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.automation.testcases.TC_003_Validate_Multiselect_button_functionality</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initiateDriverInstance</span>
+                <span class="method-start">66423 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SelectAllButton</span>
+                <span class="method-start">94320 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=SelectAllButton status=SUCCESS method=TC_003_Validate_Multiselect_button_functional...)</span>
+                <span class="method-start">137436 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.automation.testcases.TC_004_Validate_Columns_in_Listing_Screen</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initiateDriverInstance</span>
+                <span class="method-start">137838 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateColumns</span>
+                <span class="method-start">161816 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=validateColumns status=SUCCESS method=TC_004_Validate_Columns_in_Listing_Screen.val...)</span>
+                <span class="method-start">167109 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.automation.testcases.TC_005_Validate_Hide_Inactive_functionality</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initiateDriverInstance</span>
+                <span class="method-start">167495 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HideInactiveCheckbox</span>
+                <span class="method-start">196035 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=HideInactiveCheckbox status=SUCCESS method=TC_005_Validate_Hide_Inactive_functional...)</span>
+                <span class="method-start">222786 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.automation.testcases.TC_006_Validate_Error_Messages_Question_Template</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initiateDriverInstance</span>
+                <span class="method-start">223297 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">errorMessage</span>
+                <span class="method-start">242411 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=errorMessage status=SUCCESS method=TC_006_Validate_Error_Messages_Question_Template...)</span>
+                <span class="method-start">258697 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.automation.testcases.TC_007_Validate_Fields_Application_Question_Tab</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initiateDriverInstance</span>
+                <span class="method-start">259081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateFields</span>
+                <span class="method-start">281996 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=validateFields status=SUCCESS method=TC_007_Validate_Fields_Application_Question_Ta...)</span>
+                <span class="method-start">292094 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.automation.testcases.TC_008_Iframe_New_Window</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initiateDriverInstance</span>
+                <span class="method-start">292470 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">WindowHandleDemo</span>
+                <span class="method-start">312700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=WindowHandleDemo status=SUCCESS method=TC_008_Iframe_New_Window.WindowHandleDemo()[...)</span>
+                <span class="method-start">326180 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.automation.testcases.TC_002_Validate_Template_Listing_Screen</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initiateDriverInstance</span>
+                <span class="method-start">326581 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateFieldsDisplayed</span>
+                <span class="method-start">346236 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=validateFieldsDisplayed status=SUCCESS method=TC_002_Validate_Template_Listing_Scre...)</span>
+                <span class="method-start">351224 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initiateDriverInstance</span>
+                <span class="method-start">351623 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyValidationOnNoRecords</span>
+                <span class="method-start">374677 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyValidationOnNoRecords status=SUCCESS method=TC_002_Validate_Template_Listing_...)</span>
+                <span class="method-start">379833 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.automation.testcases.TC_001_Validate_Question_Template_Creation</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">380378 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

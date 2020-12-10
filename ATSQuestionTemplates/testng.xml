@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QuickHire Suite">
+	<test name="QuickHire Test2">
+		<classes>
+			<class
+				name="org.automation.testcases.TC_001_Validate_Question_Template_Creation" />
+			<class
+				name="org.automation.testcases.TC_002_Validate_Template_Listing_Screen" />
+			<class
+				name="org.automation.testcases.TC_003_Validate_Multiselect_button_functionality" />
+			<class
+				name="org.automation.testcases.TC_004_Validate_Columns_in_Listing_Screen" />
+			<class
+				name="org.automation.testcases.TC_005_Validate_Hide_Inactive_functionality" />
+			<class
+				name="org.automation.testcases.TC_006_Validate_Error_Messages_Question_Template" />
+			<class
+				name="org.automation.testcases.TC_007_Validate_Fields_Application_Question_Tab" />
+			<class 
+				name="org.automation.testcases.TC_008_Iframe_New_Window" />
+		</classes>
+	</test>
+</suite>

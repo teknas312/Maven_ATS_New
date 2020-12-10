@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="14" total="23" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="QuickHire Suite" duration-ms="380223" started-at="2020-12-10T05:20:03Z" finished-at="2020-12-10T05:26:23Z">
+    <groups>
+    </groups>
+    <test name="QuickHire Test2" duration-ms="380223" started-at="2020-12-10T05:20:03Z" finished-at="2020-12-10T05:26:23Z">
+      <class name="org.automation.testcases.TC_008_Iframe_New_Window">
+        <test-method status="PASS" signature="initiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_008_Iframe_New_Window@5f341870]" name="initiateDriverInstance" is-config="true" duration-ms="20230" started-at="2020-12-10T05:24:55Z" finished-at="2020-12-10T05:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverInstance -->
+        <test-method status="PASS" signature="WindowHandleDemo()[pri:0, instance:org.automation.testcases.TC_008_Iframe_New_Window@5f341870]" name="WindowHandleDemo" duration-ms="13480" started-at="2020-12-10T05:25:16Z" finished-at="2020-12-10T05:25:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowHandleDemo -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:org.automation.testcases.TC_008_Iframe_New_Window@5f341870]" name="tearDown" is-config="true" duration-ms="400" started-at="2020-12-10T05:25:29Z" finished-at="2020-12-10T05:25:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WindowHandleDemo status=SUCCESS method=TC_008_Iframe_New_Window.WindowHandleDemo()[pri:0, instance:org.automation.testcases.TC_008_Iframe_New_Window@5f341870] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.automation.testcases.TC_008_Iframe_New_Window -->
+      <class name="org.automation.testcases.TC_005_Validate_Hide_Inactive_functionality">
+        <test-method status="PASS" signature="initiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_005_Validate_Hide_Inactive_functionality@598067a5]" name="initiateDriverInstance" is-config="true" duration-ms="28540" started-at="2020-12-10T05:22:50Z" finished-at="2020-12-10T05:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverInstance -->
+        <test-method status="PASS" signature="HideInactiveCheckbox()[pri:0, instance:org.automation.testcases.TC_005_Validate_Hide_Inactive_functionality@598067a5]" name="HideInactiveCheckbox" duration-ms="26751" started-at="2020-12-10T05:23:19Z" finished-at="2020-12-10T05:23:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HideInactiveCheckbox -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:org.automation.testcases.TC_005_Validate_Hide_Inactive_functionality@598067a5]" name="tearDown" is-config="true" duration-ms="510" started-at="2020-12-10T05:23:46Z" finished-at="2020-12-10T05:23:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HideInactiveCheckbox status=SUCCESS method=TC_005_Validate_Hide_Inactive_functionality.HideInactiveCheckbox()[pri:0, instance:org.automation.testcases.TC_005_Validate_Hide_Inactive_functionality@598067a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.automation.testcases.TC_005_Validate_Hide_Inactive_functionality -->
+      <class name="org.automation.testcases.TC_002_Validate_Template_Listing_Screen">
+        <test-method status="PASS" signature="initiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_Validate_Template_Listing_Screen@3abbfa04]" name="initiateDriverInstance" is-config="true" duration-ms="19655" started-at="2020-12-10T05:25:29Z" finished-at="2020-12-10T05:25:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverInstance -->
+        <test-method status="PASS" signature="validateFieldsDisplayed()[pri:1, instance:org.automation.testcases.TC_002_Validate_Template_Listing_Screen@3abbfa04]" name="validateFieldsDisplayed" duration-ms="4988" started-at="2020-12-10T05:25:49Z" finished-at="2020-12-10T05:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFieldsDisplayed -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:org.automation.testcases.TC_002_Validate_Template_Listing_Screen@3abbfa04]" name="tearDown" is-config="true" duration-ms="399" started-at="2020-12-10T05:25:54Z" finished-at="2020-12-10T05:25:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateFieldsDisplayed status=SUCCESS method=TC_002_Validate_Template_Listing_Screen.validateFieldsDisplayed()[pri:1, instance:org.automation.testcases.TC_002_Validate_Template_Listing_Screen@3abbfa04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_002_Validate_Template_Listing_Screen@3abbfa04]" name="initiateDriverInstance" is-config="true" duration-ms="23053" started-at="2020-12-10T05:25:54Z" finished-at="2020-12-10T05:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverInstance -->
+        <test-method status="PASS" signature="verifyValidationOnNoRecords()[pri:2, instance:org.automation.testcases.TC_002_Validate_Template_Listing_Screen@3abbfa04]" name="verifyValidationOnNoRecords" duration-ms="5156" started-at="2020-12-10T05:26:18Z" finished-at="2020-12-10T05:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidationOnNoRecords -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:org.automation.testcases.TC_002_Validate_Template_Listing_Screen@3abbfa04]" name="tearDown" is-config="true" duration-ms="499" started-at="2020-12-10T05:26:23Z" finished-at="2020-12-10T05:26:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidationOnNoRecords status=SUCCESS method=TC_002_Validate_Template_Listing_Screen.verifyValidationOnNoRecords()[pri:2, instance:org.automation.testcases.TC_002_Validate_Template_Listing_Screen@3abbfa04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.automation.testcases.TC_002_Validate_Template_Listing_Screen -->
+      <class name="org.automation.testcases.TC_001_Validate_Question_Template_Creation">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.automation.testcases.TC_001_Validate_Question_Template_Creation@239963d8]" name="setUp" is-config="true" duration-ms="110" started-at="2020-12-10T05:20:03Z" finished-at="2020-12-10T05:20:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_001_Validate_Question_Template_Creation@239963d8]" name="initiateDriverInstance" is-config="true" duration-ms="25562" started-at="2020-12-10T05:20:03Z" finished-at="2020-12-10T05:20:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverInstance -->
+        <test-method status="PASS" signature="templateCreation()[pri:0, instance:org.automation.testcases.TC_001_Validate_Question_Template_Creation@239963d8]" name="templateCreation" duration-ms="40259" started-at="2020-12-10T05:20:29Z" finished-at="2020-12-10T05:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- templateCreation -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:org.automation.testcases.TC_001_Validate_Question_Template_Creation@239963d8]" name="tearDown" is-config="true" duration-ms="474" started-at="2020-12-10T05:21:09Z" finished-at="2020-12-10T05:21:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=templateCreation status=SUCCESS method=TC_001_Validate_Question_Template_Creation.templateCreation()[pri:0, instance:org.automation.testcases.TC_001_Validate_Question_Template_Creation@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:org.automation.testcases.TC_001_Validate_Question_Template_Creation@239963d8]" name="endReport" is-config="true" duration-ms="237" started-at="2020-12-10T05:26:23Z" finished-at="2020-12-10T05:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- org.automation.testcases.TC_001_Validate_Question_Template_Creation -->
+      <class name="org.automation.testcases.TC_004_Validate_Columns_in_Listing_Screen">
+        <test-method status="PASS" signature="initiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_004_Validate_Columns_in_Listing_Screen@31ef45e3]" name="initiateDriverInstance" is-config="true" duration-ms="23978" started-at="2020-12-10T05:22:21Z" finished-at="2020-12-10T05:22:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverInstance -->
+        <test-method status="PASS" signature="validateColumns()[pri:0, instance:org.automation.testcases.TC_004_Validate_Columns_in_Listing_Screen@31ef45e3]" name="validateColumns" duration-ms="5293" started-at="2020-12-10T05:22:45Z" finished-at="2020-12-10T05:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateColumns -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:org.automation.testcases.TC_004_Validate_Columns_in_Listing_Screen@31ef45e3]" name="tearDown" is-config="true" duration-ms="385" started-at="2020-12-10T05:22:50Z" finished-at="2020-12-10T05:22:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateColumns status=SUCCESS method=TC_004_Validate_Columns_in_Listing_Screen.validateColumns()[pri:0, instance:org.automation.testcases.TC_004_Validate_Columns_in_Listing_Screen@31ef45e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.automation.testcases.TC_004_Validate_Columns_in_Listing_Screen -->
+      <class name="org.automation.testcases.TC_007_Validate_Fields_Application_Question_Tab">
+        <test-method status="PASS" signature="initiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_007_Validate_Fields_Application_Question_Tab@14bf9759]" name="initiateDriverInstance" is-config="true" duration-ms="22915" started-at="2020-12-10T05:24:22Z" finished-at="2020-12-10T05:24:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverInstance -->
+        <test-method status="PASS" signature="validateFields()[pri:0, instance:org.automation.testcases.TC_007_Validate_Fields_Application_Question_Tab@14bf9759]" name="validateFields" duration-ms="10098" started-at="2020-12-10T05:24:45Z" finished-at="2020-12-10T05:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFields -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:org.automation.testcases.TC_007_Validate_Fields_Application_Question_Tab@14bf9759]" name="tearDown" is-config="true" duration-ms="375" started-at="2020-12-10T05:24:55Z" finished-at="2020-12-10T05:24:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateFields status=SUCCESS method=TC_007_Validate_Fields_Application_Question_Tab.validateFields()[pri:0, instance:org.automation.testcases.TC_007_Validate_Fields_Application_Question_Tab@14bf9759] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.automation.testcases.TC_007_Validate_Fields_Application_Question_Tab -->
+      <class name="org.automation.testcases.TC_006_Validate_Error_Messages_Question_Template">
+        <test-method status="PASS" signature="initiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_006_Validate_Error_Messages_Question_Template@3c0ecd4b]" name="initiateDriverInstance" is-config="true" duration-ms="19114" started-at="2020-12-10T05:23:46Z" finished-at="2020-12-10T05:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverInstance -->
+        <test-method status="PASS" signature="errorMessage()[pri:0, instance:org.automation.testcases.TC_006_Validate_Error_Messages_Question_Template@3c0ecd4b]" name="errorMessage" duration-ms="16286" started-at="2020-12-10T05:24:05Z" finished-at="2020-12-10T05:24:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorMessage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:org.automation.testcases.TC_006_Validate_Error_Messages_Question_Template@3c0ecd4b]" name="tearDown" is-config="true" duration-ms="382" started-at="2020-12-10T05:24:22Z" finished-at="2020-12-10T05:24:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=errorMessage status=SUCCESS method=TC_006_Validate_Error_Messages_Question_Template.errorMessage()[pri:0, instance:org.automation.testcases.TC_006_Validate_Error_Messages_Question_Template@3c0ecd4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.automation.testcases.TC_006_Validate_Error_Messages_Question_Template -->
+      <class name="org.automation.testcases.TC_003_Validate_Multiselect_button_functionality">
+        <test-method status="PASS" signature="initiateDriverInstance()[pri:0, instance:org.automation.testcases.TC_003_Validate_Multiselect_button_functionality@57fffcd7]" name="initiateDriverInstance" is-config="true" duration-ms="27897" started-at="2020-12-10T05:21:09Z" finished-at="2020-12-10T05:21:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverInstance -->
+        <test-method status="PASS" signature="SelectAllButton()[pri:0, instance:org.automation.testcases.TC_003_Validate_Multiselect_button_functionality@57fffcd7]" name="SelectAllButton" duration-ms="43115" started-at="2020-12-10T05:21:37Z" finished-at="2020-12-10T05:22:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectAllButton -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:org.automation.testcases.TC_003_Validate_Multiselect_button_functionality@57fffcd7]" name="tearDown" is-config="true" duration-ms="401" started-at="2020-12-10T05:22:20Z" finished-at="2020-12-10T05:22:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectAllButton status=SUCCESS method=TC_003_Validate_Multiselect_button_functionality.SelectAllButton()[pri:0, instance:org.automation.testcases.TC_003_Validate_Multiselect_button_functionality@57fffcd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.automation.testcases.TC_003_Validate_Multiselect_button_functionality -->
+    </test> <!-- QuickHire Test2 -->
+  </suite> <!-- QuickHire Suite -->
+</testng-results>
